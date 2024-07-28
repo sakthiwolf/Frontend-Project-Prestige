@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige</title>
+     <!-- bootstrap cdn -->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <!-- css file -->
+     <link rel="stylesheet" href="assets/css/min.css">
+     <link rel="stylesheet" href="assets/css/responive.css">
+       <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font link -->
+    <link rel="stylesheet" href="assets/Icon-font-7-stroke-PIXEDEN-v-1.2.0/assets/Pe-icon-7-stroke.css">
+    <!-- fa fa icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- slider card -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
+
+    <style>
+        .bg{
+  background-color: #1e1f26;
+  height: 100vh;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.level{
+  background-color: #00d1b2;
+  padding: 5rem 0;
+  color: #ffffff;
+  margin: 0!important;
+}
+
+.title{
+  color: inherit;
+  width: 200px;
+  height: 36px;
+}
+    </style>
+</head>
+<body>
+    <!-- Top header -->
+    <div class="top-header">
+        <!-- Container -->
+        <div class="container">						
+            <div class="top-left">
+                <div class="lang-block">
+                    
+                        <select class="selectpicker" data-placeholder="Choose a Language..." tabindex="-98">
+                            <option value="EN">English</option>
+                            <option value="AF">Albanian</option>
+                            <option value="SQ">German</option>
+                        </select>
+                    </div>
+                </div>
+          
+            <div class="logo-block">
+                <a href="index.html" title="Logo"><img src="assets/img/logo.jpg.png" alt=""></a>
+            </div>
+            <div class="top-right">
+                <span><a href="tel:18001234567">1800-123-4567</a></span>
+                <ul class="pages-dropdown">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" title="Page 1">Page 1</a></li>
+                            <li><a href="#" title="Page 2">Page 2</a></li>
+                            <li><a href="#" title="Page 3">Page 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="search">
+                    <a href="javascript:void(0);" id="search" title="Search"><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            <!-- Search Box -->
+           <!-- Search Box /- -->
+        </div><!-- Container /- -->
+    </div>
+
+    <!-- navbar -->
+
+    <nav>
+       <div class="container">
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><a href="#"><img src="assets/img/logoph.png" alt=""></a></div>
+            <div class="nav-links">
+              <div class="sidebar-logo">
+                <span class="logo-name"><img src="assets/img/logo.jpg.png" alt=""></span>
+                <i class='bx bx-x' ></i>
+              </div>
+              <ul class="links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">WORK</a></li>
+
+               
+                <li>
+                  <a href="#">SERVICES</a>
+                  <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                  <ul class="htmlCss-sub-menu sub-menu">
+                    <li><a href="#">Web Design</a></li>
+                    <!-- <li><a href="#">Login Forms</a></li>
+                    <li><a href="#">Card Design</a></li> -->
+                    <!-- <li class="more">
+                      <span><a href="#">More</a>
+                      <i class='bx bxs-chevron-right arrow more-arrow'></i> -->
+                    </span>
+                      <ul class="more-sub-menu sub-menu">
+                        <li><a href="#">Neumorphism</a></li>
+                        <li><a href="#">Pre-loader</a></li>
+                        <li><a href="#">Glassmorphism</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">PRICING</a></li>
+                <!-- <li>
+                  <a href="#">JAVASCRIPT</a>
+                  <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                  <ul class="js-sub-menu sub-menu">
+                    <li><a href="#">Dynamic Clock</a></li>
+                    <li><a href="#">Form Validation</a></li>
+                    <li><a href="#">Card Slider</a></li>
+                    <li><a href="#">Complete Website</a></li>
+                  </ul>
+                </li> -->
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+              </ul>
+            </div>
+            <div class="search-box">
+              <i class='bx bx-search'></i>
+              <!-- <div class="input-box">
+                <input type="text" placeholder="Search...">
+              </div> -->
+            </div>
+          </div>
+       </div>
+   </nav>
+
+   <!-- hero silder -->
+   <div class="hero">
+    <div class="hero-slide">
+        <div class="image">
+            <img src="assets/img/slider-img/1.jpg" />
+        </div>
+        <div class="content-left">
+            <h1>Make your Dream projects with <span>Prestige</span> theme</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis eros enim. Curabitur id mauris nibh. Nunc sollicitudin sem ac lectus suscipit, eget varius quam hendrerit.</p>
+          
+        </div>
+    </div>
+    <div class="hero-slide">
+        <div class="image">
+            <img src="assets/img/slider-img/2.jpg" />
+        </div>
+        <div class="content-left">
+            <h1>Make your Dream projects with <span>Prestige</span> theme</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis eros enim. Curabitur id mauris nibh. Nunc sollicitudin sem ac lectus suscipit, eget varius quam hendrerit.</p>
+           
+          
+        </div>
+    </div>
+    <div class="hero-slide">
+        <div class="image">
+            <img src="assets/img/slider-img/3.jpg" />
+        </div>
+      
+        <div class="content-left">
+            <h1> Make your Dream projects with 
+                <span>Prestige</span>
+            </h1>
+            
+            <p>Nam sodales dictum turpis, nec imperdiet eros aliquam in. Nam varius, eros sed placerat aliquam, lacus nunc imperdiet mi, at vulputate erat magna quis velit. Aenean congue, ipsum a efficitur imperdiet.</p>
+            <a href="#">
+              
+            </a>
+        </div>
+    </div>
+    <!-- <div class="hero-slide">
+        <div class="image">
+            <img src="" />
+        </div>
+        <div class="content-left">
+            <h1>Slide 4 Header</h1>
+            <p>Phasellus tempor diam vitae ornare euismod. Nulla vel enim orci. In sollicitudin dui nec orci laoreet, sit amet lobortis eros consequat. Donec eu placerat libero. Nam mi est, porttitor ac velit eget, feugiat semper quam.</p>
+            <a href="#">
+                <button class="button-solid">
+                    <p>I'm A Button</p>
+                </button>
+            </a>
+        </div>
+    </div> -->
+</div>
+
+<!--  2nd section -->
+
+
+	
+            		<!-- Container -->
+				<div class="container">
+					<!-- Section Header -->
+                    <div class="header-content">
+                        <div class="section-header">
+                            <h3>Features</h3>
+                        </div>
+                    </div>
+					<!-- Section Header /- -->
+					<div class="features-detail">
+						<div class="feature-img">
+							<img src="assets/img/features/features-img.jpg" alt="Features">
+						</div>
+						<!-- Row -->
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="features-box">
+									<i class="pe-7s-way"></i>
+									<h3>User-friendly Design</h3>
+									<p>Where you can see our troubles are all the same. You wanna be where everybody knows Your name.</p>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="features-box">
+									<i class="pe-7s-server"></i>
+									<h3>Ready-to-use Elements</h3>
+									<p>Where you can see our troubles are all the same. You wanna be where everybody knows Your name.</p>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="features-box">
+									<i class="pe-7s-config"></i>
+									<h3>Easy Customization</h3>
+									<p>Where you can see our troubles are all the same. You wanna be where everybody knows Your name.</p>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="features-box">
+									<i class="pe-7s-photo"></i>
+									<h3>Cool Portfolio layouts</h3>
+									<p>Where you can see our troubles are all the same. You wanna be where everybody knows Your name.</p>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="features-box">
+									<i class="pe-7s-light"></i>
+									<h3>Unique Demos</h3>
+									<p>Where you can see our troubles are all the same. You wanna be where everybody knows Your name.</p>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="features-box">
+									<i class="pe-7s-helm"></i>
+									<h3>Flexible Design</h3>
+									<p>Where you can see our troubles are all the same. You wanna be where everybody knows Your name.</p>
+								</div>
+							</div>
+						</div><!-- Row /- -->
+					</div>
+				</div><!-- Container /- -->
+        
+
+                <!-- gallery -->
+               <div class="section-feature">
+               <div class="header-content">
+                <div class="section-header">
+                    <h3>Digital Portfolio</h3>
+                </div>
+               </div>
+                <div class="button-group filters-button-group">
+                    <button class="button is-checked" data-filter="*">all</button>
+                    <button class="button" data-filter=".beach">beach</button>
+                    <button class="button" data-filter=".bird">bird</button>
+                    <button class="button" data-filter=".boat">boat</button>
+                    <button class="button" data-filter=".lighthouse">lighthouse</button>
+                
+                </div>
+                
+                <section id="grid-container" class="transitions-enabled fluid masonry js-masonry grid">
+                    <article class="beach people sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/beach1.jpg" class="img-responsive" />
+                    </article>
+                    <article class="beach bird">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/bird3.jpg" class="img-responsive" />
+                    </article>
+                    <article class="sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/sea2.jpg" class="img-responsive" />
+                    </article>
+                    <article class="beach people rock sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/beach2.jpg" class="img-responsive" />
+                    </article>
+                    <article class="beach sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/beach3.jpg" class="img-responsive" />
+                    </article>
+                    <article class="bird">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/bird1.jpg" class="img-responsive" />
+                    </article>
+                    <article class="bird">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/bird2.jpg" class="img-responsive" />
+                    </article>
+                    <article class="sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/sea4.jpg" class="img-responsive" />
+                    </article>
+                    <article class="lighthouse rock sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/lighthouse1.jpg" class="img-responsive" />
+                    </article>
+                    <article class="boat">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/boat2.jpg" class="img-responsive" />
+                    </article>
+                    <article class="lighthouse sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/lighthouse2.jpg" class="img-responsive" />
+                    </article>
+                    <article class="beach people">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/people1.jpg" class="img-responsive" />
+                    </article>
+                    <article class="rock sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/rock3.jpg" class="img-responsive" />
+                    </article>
+                    <article class="boat lighthouse sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/boat1.jpg" class="img-responsive" />
+                    </article>
+                    <article class="boat sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/sea1.jpg" class="img-responsive" />
+                    </article>
+                    <article class="rock sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/rock2.jpg" class="img-responsive" />
+                    </article>
+                    <article class="beach">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/beach4.jpg" class="img-responsive" />
+                    </article>
+                    <article class="rock sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/sea3.jpg" class="img-responsive" />
+                    </article>
+                    <article class="people rock sea">
+                        <img src="https://cdn2.hubspot.net/hub/322787/hubfs/MYCHEFCOM/hackathon/photos-gallery/rock1.jpg" class="img-responsive" />
+                    </article>
+                </section>
+               </div>
+
+<!-- offer section -->
+<div id="services-section" class="services-section">
+    <!-- Container -->
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <h3>What We Offer</h3>
+        </div><!-- Section Header /- -->
+        <!-- Row -->
+        <div class="row">
+            <div class="col-md-4 col-xs-6">
+                <div class="srv-box">
+                    <i class="fa fa-briefcase"></i>
+                    <h3>Design Concept</h3>
+                    <p>Design isn't just the façade; it's the personality beneath. For some reason, design has a stigma as solely</p>
+                    <a class="btn btn-read-more" href="#" title="Read More">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="srv-box">
+                    <i class="fa fa-html5"></i>
+                    <h3>Front-end Coding</h3>
+                    <p>Users are paramount and should always be at the forefront of every decision about your site or app. De-</p>
+                    <a class="btn btn-read-more" href="#" title="Read More">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="srv-box">
+                    <i class="fa fa-file-text"></i>
+                    <h3>Back-end Development</h3>
+                    <p>Details are capable of making a 'good' design 'great'. Attention to detail in a user experience can be the difference</p>
+                    <a class="btn btn-read-more" href="#" title="Read More">Read More</a>
+                </div>
+            </div>
+        </div><!-- Row /- -->
+    </div><!-- Container /- -->
+</div>
+<!-- number counter -->
+<div class="number-counter">
+    <div class="counter-up">
+        <div class="content">
+          <div class="box">
+            <div class="icon"><img src="assets/img/number-counter/counter-ic-1.png" alt=""></div>
+            <div class="counter">724</div>
+            <div class="text">Working Hours</div>
+          </div>
+          <div class="box">
+            <div class="icon"><img src="assets/img/number-counter/counter-ic-2.png" alt=""></div>
+            <div class="counter">508</div>
+            <div class="text">Awards Received</div>
+          </div>
+          <div class="box">
+            <div class="icon"><img src="assets/img/number-counter/counter-ic-3.png" alt=""></i></div>
+            <div class="counter">436</div>
+            <div class="text">Ideas</div>
+          </div>
+          <div class="box">
+            <div class="icon"><img src="assets/img/number-counter/counter-ic-4.png" alt=""></div>
+            <div class="counter">120</div>
+            <div class="text">Happy Clients</div>
+          </div>
+        </div>
+      </div>
+</div>
+
+   
+
+<!-- pricing -->
+<div id="pricing-section" class="pricing-section">
+    <!-- Container -->
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <h3>Pricing &amp; Plans</h3>
+        </div><!-- Section Header /- -->
+        <!-- Row -->
+        <div class="row">
+            <div class="col-md-4 col-xs-6">
+                <div class="pricing-box">
+                    <div class="price-title">
+                        <h3>Basic Pack <span>most popular package</span></h3>
+                    </div>
+                    <div class="price-box">
+                        <span class="corner-left"></span>
+                        <span class="corner-right"></span>
+                        <h4><span>123<sup>$</sup></span></h4>
+                    </div>
+                    <ul>
+                        <li>Any Time Services</li>
+                        <li>Quality and Effective</li>
+                        <li>Well Experienced Staff</li>
+                        <li>Branded Products</li>
+                        <li>Fasting and Time Saving</li>
+                    </ul>
+                    <a class="btn btn-get-it-now" href="#" title="GET IT NOW!">GET IT NOW!</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="pricing-box">
+                    <div class="price-title">
+                        <h3>Standard <span>most popular package</span></h3>
+                    </div>
+                    <div class="price-box">
+                        <span class="corner-left"></span>
+                        <span class="corner-right"></span>
+                        <h4><span>123<sup>$</sup></span></h4>
+                    </div>
+                    <ul>
+                        <li>Any Time Services</li>
+                        <li>Quality and Effective</li>
+                        <li>Well Experienced Staff</li>
+                        <li>Branded Products</li>
+                        <li>Fasting and Time Saving</li>
+                    </ul>
+                    <a class="btn btn-get-it-now" href="#" title="GET IT NOW!">GET IT NOW!</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <div class="pricing-box">
+                    <div class="price-title">
+                        <h3>Premium <span>most popular package</span></h3>
+                    </div>
+                    <div class="price-box">
+                        <span class="corner-left"></span>
+                        <span class="corner-right"></span>
+                        <h4><span>123<sup>$</sup></span></h4>
+                    </div>
+                    <ul>
+                        <li>Any Time Services</li>
+                        <li>Quality and Effective</li>
+                        <li>Well Experienced Staff</li>
+                        <li>Branded Products</li>
+                        <li>Fasting and Time Saving</li>
+                    </ul>
+                    <a class="btn btn-get-it-now" href="#" title="GET IT NOW!">GET IT NOW!</a>
+                </div>
+            </div>
+        </div><!-- Row /- -->
+    </div><!-- Container /- -->
+</div>
+<!-- card slider -->
+<!-- https://codepen.io/vilcu/pen/ZQwdGQ -->
+<div class="wrapper">
+    <h2>Slick Carousel Example<h2>
+      <div class="carousel">
+        <div>
+          <div class="card">
+            <div class="card-header">
+              <img src="assets/img/client-slider/team-1.jpg">
+            </div>
+            <div class="card-body">
+                <div class="card-content">
+                  <div class="card-title"><h3>Alan Dark</h3>
+                      <span>designer</span>
+                      <ul>
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                          <li><a href="#"><i class="fa fa-snapchat"></i></a></li>
+                      </ul></div>
+                  
+                  <div class="card-text">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>    
+        <div>
+          <div class="card">
+            <div class="card-header">
+              <img src="assets/img/client-slider/team-2.jpg">
+            </div>
+            <div class="card-body">
+                <div class="card-content">
+                  <div class="card-title"><h3>Alan Dark</h3>
+                      <span>designer</span>
+                      <ul>
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                          <li><a href="#"><i class="fa fa-snapchat"></i></a></li>
+                      </ul></div>
+                  
+                  <div class="card-text">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <div class="card-header">
+              <img src="assets/img/client-slider/team-3.jpg">
+            </div>
+            <div class="card-body">
+                <div class="card-content">
+                  <div class="card-title"><h3>Alan Dark</h3>
+                      <span>designer</span>
+                      <ul>
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                          <li><a href="#"><i class="fa fa-snapchat"></i></a></li>
+                      </ul></div>
+                  
+                  <div class="card-text">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>  
+        </div>
+        <div>
+          <div class="card">
+            <div class="card-header">
+              <img src="assets/img/client-slider/team-3.jpg">
+            </div>
+            <div class="card-body">
+                <div class="card-content">
+                  <div class="card-title"><h3>Alan Dark</h3>
+                      <span>designer</span>
+                      <ul>
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                          <li><a href="#"><i class="fa fa-snapchat"></i></a></li>
+                      </ul></div>
+                  
+                  <div class="card-text">
+                    
+                  </div>
+                </div>
+              </div>
+          </div> 
+        </div>
+        <div>
+          <div class="card">
+            <div class="card-header">
+              <img src="assets/img/client-slider/team-4.jpg">
+            </div>
+            <div class="card-body">
+                <div class="card-content">
+                  <div class="card-title"><h3>Alan Dark</h3>
+                      <span>designer</span>
+                      <ul>
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                          <li><a href="#"><i class="fa fa-snapchat"></i></a></li>
+                      </ul></div>
+                  
+                  <div class="card-text">
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <div class="card-header">
+              <img src="assets/img/client-slider/team-2.jpg">
+            </div>
+            <div class="card-body">
+              <div class="card-content">
+                <div class="card-title"><h3>Alan Dark</h3>
+                    <span>designer</span>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-snapchat"></i></a></li>
+                    </ul></div>
+                
+                <div class="card-text">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+      </div>
+
+
+
+
+
+<!-- footer section -->
+<footer id="footer-main" class="footer-main">
+    <!-- Top Footer -->
+    <div class="top-footer">
+        <!-- Container -->
+        <div class="container">
+            <div class="logo-block">
+                <h3><a href="#"><img src="assets/img/footer/logo.png" alt="logo"></a></h3>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor</p>
+                <ul>
+                    <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#" title="Tumblr"><i class="fa fa-tumblr"></i></a></li>
+                    <li><a href="#" title="Vimeo"><i class="fa fa-vimeo"></i></a></li>
+                    <li><a href="#" title="Pinterest"><i class="fa fa-pinterest-p"></i></a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <!-- Widget Contact -->
+                <div class="col-md-4 col-xs-6">
+                    <aside class="widget widget_contact">
+                        <h3 class="widget-title">Contact</h3>
+                        <div class="contact-tab">
+                            <!-- Nav tabs -->
+                            <!-- <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#address" role="tab" data-toggle="tab"><i class=" icon-Pointer"></i></a></li>
+                                <li role="presentation"><a href="#email-add" role="tab" data-toggle="tab"><i class="icon icon-Mail"></i></a></li>
+                            </ul> -->
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="address">
+                                    <p>123, New street Chicago, Northeastern Illinois</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="email-add">
+                                    <p><a href="tel:example@mail.com">example@mail.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div><!-- Widget Contact /- -->
+                <!-- Widget Working Hours -->
+                <div class="col-md-4 col-xs-6">
+                    <aside class="widget widget_working_hours">
+                        <h3 class="widget-title">Working Hours</h3>	
+                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit .</p>
+                        <p>mon - fri :  9.00  AM  To  5.00 PM</p>
+                        <p>sat - sun : 11.00  AM  To  3.00 PM</p>
+                    </aside>
+                </div><!-- Widget Working Hours /- -->
+                <!-- Widget Flicker -->
+                <div class="col-md-4 col-xs-6">
+                    <aside class="widget widget_flickr">
+                        <h3 class="widget-title">Flickr Gallery</h3>
+                        <ul>
+                            <li><a href="#"><img src="assets/img/footer-men/flicker-1.jpg" alt="Flicker"></a></li>
+                            <li><a href="#"><img src="assets/img/footer-men/flicker-2.jpg" alt="Flicker"></a></li>
+                            <li><a href="#"><img src="assets/img/footer-men/flicker-3.jpg" alt="Flicker"></a></li>
+                            <li><a href="#"><img src="assets/img/footer-men/flicker-4.jpg" alt="Flicker"></a></li>
+                            <li><a href="#"><img src="assets/img/footer-men/flicker-5.jpg" alt="Flicker"></a></li>
+                            <li><a href="#"><img src="assets/img/footer-men/flicker-6.jpg" alt="Flicker"></a></li>
+                        </ul>
+                    </aside> 
+                </div><!-- Widget Flicker /- -->
+            </div><!-- Row /- -->
+        </div><!-- Container /- -->
+    </div><!-- Top Footer -->
+    <!-- Bottom Footer -->
+    <div class="bottom-footer">
+        <!-- Container -->
+        <div class="container">
+            <p><i class="fa fa-copyright"></i> Powered By <a href="#">Endless</a></p>
+            <!-- 2024 Prestige Template. All Rights Reserved -->
+        </div><!-- Container -->
+    </div><!-- Bottom Footer /- -->
+</footer>
+
+
+
+
+  <!-- nabvar js -->
+  <script src="assets/js/navbar.js"></script>
+
+    <!-- bootstrap js cdn -->
+<script  src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/slider.js"></script>
+
+
+
+
+<!-- gallery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdn2.hubspot.net/hub/322787/hub_generated/style_manager/1440007714979/custom/page/hack-a-thon-3/masonry.min.min.js"></script>
+<script src="https://cdn2.hubspot.net/hub/322787/hub_generated/style_manager/1440007849180/custom/page/hack-a-thon-3/isotope.min.js"></script>
+<script src="assets/js/gallery.js"></script>
+<!-- number counter -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script>
+    $(document).ready(function(){
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1200
+      });
+    });
+    </script>
+<!-- card slider -->
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+  $('.carousel').slick({
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    dots:true,
+    centerMode: true,
+    responsive: [{
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        // centerMode: true,
+
+      }
+
+    }, {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        dots: true,
+        infinite: true,
+
+      }
+    },  {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      }
+    }]
+  });
+});
+</script>
+
+</body>
+</html>
